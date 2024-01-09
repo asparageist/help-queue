@@ -1,6 +1,8 @@
 body {
   text-align: center;
-  color: hotpink;
+  color: lightpink;
+  text-shadow: hotpink 5px 5px 10px;
+
 
   background-color: deeppink;
   margin: 0;
@@ -17,8 +19,15 @@ body {
 
     border: solid 5px hotpink;
 
-    border-radius: 50% 0% 50% 50%;
-  
+    border-radius: 50%;
+    transition: all 250ms ease;
+    box-shadow: hotpink 5px 5px 10px;
+
+  }
+
+  .medium:hover {
+    transform: rotate(720deg) scale(2.5);
+    transition: all 10000ms ease;
   }
 
 }
