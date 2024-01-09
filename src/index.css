@@ -1,14 +1,26 @@
 body {
+  text-align: center;
+  color: hotpink;
 
-
-  background-color: black;
-  /* background-color: rgb(37, 37, 37); */
+  background-color: deeppink;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
+  .medium{
+    width: 500px;
+    height: auto;
+
+    border: solid 5px hotpink;
+
+    border-radius: 50% 0% 50% 50%;
+  
+  }
+
 }
 
 code {

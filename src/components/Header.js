@@ -6,7 +6,7 @@ function Header(){
     <React.Fragment>
     <h1>Help Queue</h1>
     <h3>get ye some help</h3>
-    <img src={mushImage} alt="An image of fly amanita" />
+    <img src={mushImage} alt="An image of fly amanita" class = "medium"/>
 
     </React.Fragment>
   );
