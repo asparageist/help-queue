@@ -19,9 +19,9 @@ body {
 
     border: solid 5px hotpink;
 
+    transition: all 750ms ease;
+    box-shadow: hotpink 5px 5px 100px;
     border-radius: 50%;
-    transition: all 250ms ease;
-    box-shadow: hotpink 5px 5px 10px;
 
   }
 
