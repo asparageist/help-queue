@@ -10,9 +10,12 @@ const reducer = (state = {}, action) => {
           id: id
         }
       });
-      default:
-        return state;
-
+    case 'DELETE_TICKET':
+      let newState = { ...state };
+      delete newState[id];
+      return newState;
+    default:
+      return state
   }
 };
 
